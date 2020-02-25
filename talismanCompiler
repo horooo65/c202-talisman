@@ -1,1 +1,20 @@
+//Sintaxis Basicas para el uso de Elixir a la hora de creacion de nuestro compilador
+// Operaciones basicas para ir familiarizando con el lenguaje
+//IMPRIMIR UNA CADENA
+IO.puts "Hola Mundo"
 
+//CREAR Variables
+
+curso = "Elixir"
+version = 1.6
+completado = true
+// Con <> podemos concatenar strings!
+titulo = "Curso de " <> curso <> "."
+
+//Funciones a nivel basico
+
+def suma(valor1, valor2) do 
+ valor1 + valor2
+end
+
+//
