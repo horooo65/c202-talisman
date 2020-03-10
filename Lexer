@@ -54,6 +54,11 @@ defmodule Lexer do
       [:error]
     end
   end
+  
+def lex_raw_tokens(_program) do
+    []
+  end
+end
 
   
 
