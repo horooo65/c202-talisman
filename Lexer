@@ -14,7 +14,7 @@ defmodule Lexer do
         {:error, "Token no valido,revision: #{program}"}
     end
   end
-//Palabras reservadas  
+#Palabras reservadas  
  def lex_raw_tokens(program) when program != "" do
     {token, rest} =
       case program do
