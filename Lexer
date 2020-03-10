@@ -1,0 +1,5 @@
+//Funcion para leer letras y crear tokens
+defmodule Lexer do
+  def scan_words(words) do
+    Enum.flat_map(words, &lex_raw_tokens/1)
+  end
